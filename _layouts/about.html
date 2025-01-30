@@ -50,18 +50,26 @@ layout: default
             {{ content }}
           </div>
           
-          {% if page.interests_educations -%}
           <!--Research interests and educations-->
+          {% if page.interests_educations -%}
           {%- include interests_educations.html %}
           {%- endif %}
-          {% if page.news -%}
+          
           <!-- News -->
+          {% if page.news -%}
           {%- include news.html %}
           {%- endif %}
+          
+          <!-- Teachings -->
+          {% if page.teaching -%}
+          {%- include teaching.html %}
+          {%- endif %}
+          
+          <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
+          
           <!--Contacts-->
           {% if page.contacts -%}
           {%- include contacts.html %}
