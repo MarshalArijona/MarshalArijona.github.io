@@ -64,6 +64,11 @@ layout: default
           {% if page.teaching -%}
           {%- include teaching.html %}
           {%- endif %}
+
+          <!-- Supervisions -->
+          {% if page.supervisions -%}
+          {%- include supervisions.html %}
+          {%- endif %}
           
           <!-- Selected papers -->
           {% if page.selected_papers -%}

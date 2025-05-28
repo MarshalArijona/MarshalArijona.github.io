@@ -71,7 +71,7 @@ pdf={thesis/master_thesis.pdf}
   title={On study of Variational Inference},
   author={Marshal Sinaga},
   year={2021},
-  paper={approximate_inference.pdf},
+  pdf={approximate_inference.pdf},
   abstract={The main problem of Bayesian inference is computing the posterior which is often intractable. In
 this paper, we review variational inference (VI)
 methods that aim to find a variational distribution to approximate the true posterior. The review
@@ -86,7 +86,7 @@ recent improvement of variational inference.}
 Methods},
   author={Marshal Sinaga},
   year={2021},
-  paper={mutual_information.pdf},
+  pdf={mutual_information.pdf},
   abstract={The presence of mutual information in the research
 of deep learning has grown significantly. It has been proven
 that mutual information can be a good objective function to
@@ -171,7 +171,7 @@ improvement over homoscedastic PBO.},
 abbr={RealML 2023}
 }
 
-@article{sinaga2024heteroPBO,
+@misc{sinaga2024heteroPBO,
   title={Preferential Heteroscedastic Bayesian Optimization with
 Informative Noise Distribution},
   author={Marshal Sinaga and Julien Martinelli and Vikas Garg and Samuel Kaski},
@@ -201,6 +201,33 @@ abbr={preprint}
 }
 
 
-
+@misc{sinaga2025robustcomputationawaregaussianprocesses,
+      title={Robust and Computation-Aware Gaussian Processes}, 
+      author={Marshal Sinaga and Julien Martinelli and Samuel Kaski},
+      year={2025},
+      paper={https://arxiv.org/abs/2505.21133},
+      abstract={
+      Gaussian processes (GPs) are widely used for regression and optimization tasks
+such as Bayesian optimization (BO) due to their expressiveness and principled
+uncertainty estimates. However, in settings with large datasets corrupted by outliers,
+standard GPs and their sparse approximations struggle with computational tractability and robustness. We introduce Robust Computation-aware Gaussian Process
+(RCaGP), a novel GP model that jointly addresses these challenges by combining a
+principled treatment of approximation-induced uncertainty with robust generalized
+Bayesian updating. The key insight is that robustness and approximation-awareness
+are not orthogonal but intertwined: approximations can exacerbate the impact of
+outliers, and mitigating one without the other is insufficient. Unlike previous
+work that focuses narrowly on either robustness or approximation quality, RCaGP
+combines both in a principled and scalable framework, thus effectively managing
+both outliers and computational uncertainties introduced by approximations such
+as low-rank matrix multiplications. Our model ensures more conservative and
+reliable uncertainty estimates, a property we rigorously demonstrate. Additionally, we establish a robustness property and show that the mean function is key
+to preserving it, motivating a tailored model selection scheme for robust mean
+functions. Empirical results confirm that solving these challenges jointly leads to
+superior performance across both clean and outlier-contaminated settings, both on
+regression and high-throughput Bayesian optimization benchmarks.
+      },
+      selected={true},
+      abbr={preprint}
+}
 -------------------------------------------------------------------------------------------------------------------------------
 

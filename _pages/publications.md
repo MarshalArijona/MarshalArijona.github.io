@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: publications by chronological order.
-years: [2020, 2021, 2022, 2023, 2024]
+years: [2020, 2021, 2022, 2023, 2024, 2025]
 nav: true
 ---
 <!-- _pages/publications.md -->
