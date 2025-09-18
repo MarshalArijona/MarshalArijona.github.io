@@ -159,7 +159,7 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path:            "assets/**/*.*"
+      path:            "/assets/**/*.*"
     values:
       sitemap:         false
 # Extras
@@ -245,7 +245,7 @@ imagemagick:
     - ".png"
     - ".tiff"
   output_formats:
-    webp: "-quality 75%"
+    webp: "-quality 100%"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
