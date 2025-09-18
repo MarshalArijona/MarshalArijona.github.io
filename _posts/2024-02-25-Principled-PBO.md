@@ -1,11 +1,18 @@
 ---
 layout: post
 title: Principled PBO
-date: 2030-02-14 00:00:00-0400
+date: 2025-02-14 00:00:00-0400
 description:
 tags: Bayesian-optimization
 categories: machine-learning-posts
 ---
+
+### Problem Statement
+
+$$
+\begin{equation}
+\end{equation}
+$$
 
 $$
 \begin{eqnarray}
