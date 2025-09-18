@@ -7,7 +7,7 @@ permalink: /
 
 profile:
   align: right
-  image: seceda.jpeg
+  image: seceda.jpg
   address: >
     <p>Tietotekniikan talo, Room A342,</p>
     <!--<p>123 your address street</p>
