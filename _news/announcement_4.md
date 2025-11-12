@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-05-30 00:00:00-0400
+date: 2025-11-12 00:00:00-0400
 inline: true
 ---
 
@@ -9,4 +9,6 @@ inline: true
 <!--New post titled <a href="https://marshalarijona.github.io/blog/2023/expected-improvement/"> Probability Improvement and Expected Improvement Acquisition Function </a>. -->
 
 
-New post: <a href="https://marshalarijona.github.io/blog/2024/GP-UCB/"> A Deep Dive into the Regret Bound of GP-UCB Optimization </a>.
+<!--New post: <a href="https://marshalarijona.github.io/blog/2024/GP-UCB/"> A Deep Dive into the Regret Bound of GP-UCB Optimization </a>.-->
+
+Speaking at <a href="https://fcai.fi/ai-day-2025"> AI day 2025</a>.
