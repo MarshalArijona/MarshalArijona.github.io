@@ -10,4 +10,4 @@ inline: true
 
 <!--Attending <a href='https://sites.google.com/essec.edu/approximate-inference-conf/welcome?authuser=0'> Approximate Inference in Theory and Practice Conference </a> from 10 to 11 June at Institut Henri Poincare, Paris.-->
 
-Our paper *Anchor-Based Heteroscedastic Noise for Preferential Bayesian Optimization* has been accepted to <a href='https://probml.cc/'> ProbML 2026 </a>. See you in South Korea.
+Our paper *Anchor-Based Heteroscedastic Noise for Preferential Bayesian Optimization* has been accepted to <a href='https://probml.cc/'> ProbML 2026 </a> (proceeding track). See you in South Korea.

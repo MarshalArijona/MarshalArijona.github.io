@@ -60,7 +60,12 @@ layout: default
           {%- include news.html %}
           {%- endif %}
           
-          <!-- Teachings -->
+          <!-- Selected papers -->
+          {% if page.selected_papers -%}
+            {%- include selected_papers.html %}
+          {%- endif %}
+
+           <!-- Teachings -->
           {% if page.teaching -%}
           {%- include teaching.html %}
           {%- endif %}
@@ -68,11 +73,6 @@ layout: default
           <!-- Supervisions -->
           {% if page.supervisions -%}
           {%- include supervisions.html %}
-          {%- endif %}
-          
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            {%- include selected_papers.html %}
           {%- endif %}
           
           <!--Contacts-->
