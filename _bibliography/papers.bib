@@ -170,38 +170,7 @@ improvement over homoscedastic PBO.},
 abbr={RealML 2023}
 }
 
-@article{sinaga2026oscbo,
-      title={Online Sharp-Calibrated Bayesian Optimization}, 
-      author={Marshal Sinaga and Julien Martinelli and Teemu Turpeinen and Samuel Kaski},
-      year={2026},
-      paper={https://arxiv.org/abs/2605.10572},
-      abstract={
-      Bayesian optimization (BO) is a widely used framework for optimizing expensive black-box functions, commonly based on Gaussian process (GP) surrogate models. Its effectiveness relies on uncertainty quantification that is both sharp (informative) and well-calibrated along the BO trajectory. In practice, GP kernel hyperparameters are unknown and are refit online from sequentially collected (non-i.i.d.) data, which can yield miscalibrated or overly conservative uncertainty and lies outside the fixed-kernel assumptions of standard BO regret theory. We propose Online Sharp-Calibrated Bayesian Optimization (OSCBO), a BO algorithm that adaptively balances GP sharpness and calibration by casting hyperparameter selection as a constrained online-learning problem. We also show that OSCBO preserves sublinear regret bounds by leveraging the theoretical guarantees of the underlying online learning algorithm. Empirically, OSCBO performs competitively across synthetic and real-world benchmarks, ranking among the strongest methods in final simple regret while maintaining robust cumulative-regret behavior.
-      },
-      selected={true},
-      abbr={Preprint},
-}
 
-@article{sinaga2024heteroPBO,
-  title={Anchor-Based Heteroscedastic Noise for Preferential Bayesian Optimization},
-  author={Marshal Sinaga and Julien Martinelli and Samuel Kaski},
-  year={2026},
-  journal={Symposium on Probabilistic Machine Learning (ProbML)},
-  abstract={Preferential Bayesian optimization (PBO) learns latent utilities from pairwise comparisons,
-but most existing methods assume homoscedastic comparison noise. This is inadequate in
-human-in-the-loop settings, where a user may compare some designs reliably and others
-only hesitantly. We propose a heteroscedastic noise model for PBO: before optimization,
-the user provides a small set of reliable examples, called anchors, and a kernel density
-estimator (KDE) turns these anchors into an input-dependent map of user uncertainty.
-We incorporate this map into preferential GP surrogates and derive risk-averse acquisition
-functions that trade off utility and ease of comparison. We further show that a risk-adjusted
-variant of the popular expected utility of the best option (EUBO) preserves the one-step
-Bayes-optimality guarantee up to an additive constant, and that under an idealized i.i.d.
-anchor model the KDE estimator enjoys standard consistency and concentration rates.
-Experiments on synthetic problems and human-preference datasets show improved riskadjusted performance and clarify how anchor placement affects the method.},
-selected={true},
-abbr={ProbML 2026},
-}
 
 @article{sinaga2025robustcomputationawaregaussianprocesses,
       title={Robust and Computation-Aware Gaussian Processes}, 
@@ -235,8 +204,38 @@ regression and high-throughput Bayesian optimization benchmarks.
       code={https://github.com/MarshalArijona/RCaGP}
 }
 
+@article{sinaga2024heteroPBO,
+  title={Anchor-Based Heteroscedastic Noise for Preferential Bayesian Optimization},
+  author={Marshal Sinaga and Julien Martinelli and Samuel Kaski},
+  year={2026},
+  journal={Symposium on Probabilistic Machine Learning (ProbML)},
+  abstract={Preferential Bayesian optimization (PBO) learns latent utilities from pairwise comparisons,
+but most existing methods assume homoscedastic comparison noise. This is inadequate in
+human-in-the-loop settings, where a user may compare some designs reliably and others
+only hesitantly. We propose a heteroscedastic noise model for PBO: before optimization,
+the user provides a small set of reliable examples, called anchors, and a kernel density
+estimator (KDE) turns these anchors into an input-dependent map of user uncertainty.
+We incorporate this map into preferential GP surrogates and derive risk-averse acquisition
+functions that trade off utility and ease of comparison. We further show that a risk-adjusted
+variant of the popular expected utility of the best option (EUBO) preserves the one-step
+Bayes-optimality guarantee up to an additive constant, and that under an idealized i.i.d.
+anchor model the KDE estimator enjoys standard consistency and concentration rates.
+Experiments on synthetic problems and human-preference datasets show improved riskadjusted performance and clarify how anchor placement affects the method.},
+selected={true},
+abbr={ProbML 2026},
+}
 
-
+@article{sinaga2026oscbo,
+      title={Online Sharp-Calibrated Bayesian Optimization}, 
+      author={Marshal Sinaga and Julien Martinelli and Teemu Turpeinen and Samuel Kaski},
+      year={2026},
+      paper={https://arxiv.org/abs/2605.10572},
+      abstract={
+      Bayesian optimization (BO) is a widely used framework for optimizing expensive black-box functions, commonly based on Gaussian process (GP) surrogate models. Its effectiveness relies on uncertainty quantification that is both sharp (informative) and well-calibrated along the BO trajectory. In practice, GP kernel hyperparameters are unknown and are refit online from sequentially collected (non-i.i.d.) data, which can yield miscalibrated or overly conservative uncertainty and lies outside the fixed-kernel assumptions of standard BO regret theory. We propose Online Sharp-Calibrated Bayesian Optimization (OSCBO), a BO algorithm that adaptively balances GP sharpness and calibration by casting hyperparameter selection as a constrained online-learning problem. We also show that OSCBO preserves sublinear regret bounds by leveraging the theoretical guarantees of the underlying online learning algorithm. Empirically, OSCBO performs competitively across synthetic and real-world benchmarks, ranking among the strongest methods in final simple regret while maintaining robust cumulative-regret behavior.
+      },
+      selected={true},
+      abbr={Preprint},
+}
 
 -------------------------------------------------------------------------------------------------------------------------------
 
