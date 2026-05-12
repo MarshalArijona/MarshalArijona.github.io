@@ -10,4 +10,4 @@ A camera-ready version of our paper <a href='assets/pdf/heteroscedasticPBO_neuri
 
 Attending <a href='https://sites.google.com/view/robustml2024/robust-ml-workshop'> ELLIS Robust ML  Workshop </a> (June 27 - 28, 2024) and <a href='https://fcai.fi/ellis-summer-school-2024/home'> CoGenAI summer school </a> (July 1 - 5, 2024). -->
 
-New preprint: <a href='https://arxiv.org/abs/2605.10572'> Online Sharp-Calibrated Bayesian Optimization </a>
+New preprint: <a href='https://arxiv.org/abs/2605.10572'> Online Sharp-Calibrated Bayesian Optimization </a>.
